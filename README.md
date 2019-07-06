@@ -16,7 +16,7 @@ A light-weight tool to allow peer to peer connections using NAT traversal techni
 - <a href = "https://github.com/lontivero/Open.NAT">Open.NAT - UPnP/PMP Port Forwarding Library</a>
 
 ### Notes
-- IPeer or Peer must be implemented using any network library.
+- IPeer or Peer must be inherited and methods must be overrided using any network library.
 - That Peer object must be assigned to <a href = "https://github.com/emrecelik95/LeePunch-P2P.Net/blob/master/Assets/Networking/LeePunchP2P.Net/P2P/Scripts/InitialNetwork.cs#L32">InitialNetwork.peer</a> (assign with script or prefab inspector).
 - <a href = "https://github.com/emrecelik95/LeePunch-P2P.Net/tree/master/Assets/Networking/LeePunchP2P.Net/MasterServer">Master Server</a> assigns a unique ID for each host and other clients use this ID to connect the hosted client.
 
