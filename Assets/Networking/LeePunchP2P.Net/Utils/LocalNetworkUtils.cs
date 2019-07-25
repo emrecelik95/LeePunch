@@ -1,6 +1,7 @@
 ﻿using System.Net;
 using System.Net.NetworkInformation;
 using System.Net.Sockets;
+using Lidgren.Network;
 
 namespace LeePunchP2P.Net
 {
